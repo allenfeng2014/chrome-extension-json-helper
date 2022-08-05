@@ -1,0 +1,19 @@
+{
+  "name": "JSON Helper",
+  "description": "An extension that helps with JSON data.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "permissions": ["storage", "contextMenus"],
+  "action": {
+    "default_popup": "./src/popup/popup.html",
+    "default_icon": {
+      "16": "./static/icon16.png"
+    }
+  },
+  "icons": {
+    "16": "./static/icon16.png"
+  },
+  "background": {
+    "service_worker": "./src/background/selection.js"
+  }
+}

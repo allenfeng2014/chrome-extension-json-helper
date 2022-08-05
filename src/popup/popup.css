@@ -1,0 +1,31 @@
+.popup-container {
+  width: 500px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+#textarea-input {
+  width: 500px;
+  height: 400px;
+  display: block;
+  resize: none;
+}
+
+.input-replace {
+  width: 100px;
+}
+
+.btns-container {
+  width: 500px;
+  height: fit-content;
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#btn-parse {
+  width: 60px;
+  height: 30px;
+}
