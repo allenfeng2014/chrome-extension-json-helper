@@ -7,11 +7,17 @@
   "action": {
     "default_popup": "./src/popup/popup.html",
     "default_icon": {
-      "16": "./static/icon16.png"
+      "16": "./static/icon16.png",
+      "32": "./static/icon32.png",
+      "48": "./static/icon48.png",
+      "128": "./static/icon128.png"
     }
   },
   "icons": {
-    "16": "./static/icon16.png"
+    "16": "./static/icon16.png",
+    "32": "./static/icon32.png",
+    "48": "./static/icon48.png",
+    "128": "./static/icon128.png"
   },
   "background": {
     "service_worker": "./src/background/selection.js"
